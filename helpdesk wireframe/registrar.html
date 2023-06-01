@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="registrar.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="C">
+                <div>
+                    <h2>help desk</h2>
+                </div>
+                <div>
+                    <ul>
+                        <li>
+                            <a href="index.html">Inicio</a>
+                        </li>
+                        <li>
+                            <a href="tickets.html">Tickets</a>
+                        </li>
+                        <li>
+                            <a href="registrar.html">Reportar Falla</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="FormsContainer">
+        <div class="FormContainer">
+            <h2>Reportar Falla</h2>
+            <form>
+                <div class="InputContainer">
+                    <label for="cargo">Asunto</label>
+                    <input required type="text" autocomplete="off" class="txt" id="cargo" name="cargo" placeholder="ASUNTO">
+                </div>
+                <div class="InputContainer">
+                    <label for="DepartamentoEmp">Ubicacion</label>
+                    <select required class="txt" id="DepartamentoEmp" name="DepartamentoEmp" >
+                        <option>ejemplo</option>
+                        <option>ejemplo</option>
+                        <option>ejemplo</option>
+                        <option>ejemplo</option>
+                        <option>ejemplo</option>
+                    </select>
+                </div>
+                <div class="InputContainer">
+                    <label for="">Descripcion</label>
+                    <textarea></textarea>
+                </div>
+                <input type="submit" class="submit" value="Registrar">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
