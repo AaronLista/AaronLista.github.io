@@ -53,3 +53,21 @@ article>p{
     white-space: initial;
     word-break: break-all;
 }
+@media (max-width:800px){
+    .Description{
+        display: none;
+    }
+    #op{
+        display: block;
+    }
+    .MainContainer{
+        grid-template-columns: repeat(1, 1fr);
+        font-size: 12px;
+    }
+    .search>div{
+        width: 100%;
+        font-size: 12px;
+        display: flex;
+        justify-content:center;
+    }
+}

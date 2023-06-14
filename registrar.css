@@ -41,3 +41,17 @@ textarea{
     width: 75%;
     height: 100px;
 }
+@media (max-width:1000px){
+    .FormContainer{
+        width: 60%;
+    }
+    .resultados{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+@media (max-width:800px){
+    .FormContainer{
+        width: 80%;
+    }
+}
